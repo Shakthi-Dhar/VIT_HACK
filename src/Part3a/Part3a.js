@@ -92,7 +92,7 @@ return(
                     </p>
 
                     </div> */}
-                    <div>
+                    <div className='part3a-summary'>
                         <h3>Summary</h3>
                         <p>rural hospitals:{this.state.items2.ruralHospitals}</p>
                         <p>rural beds: {this.state.items2.ruralBeds}</p>

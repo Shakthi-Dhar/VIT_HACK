@@ -11,7 +11,7 @@ import Background from './Background/Background'
 function App() {
   return (
     <Router>
-      {/* <Background></Background> */}
+      
       <h1>Covid++</h1>
       <Header className="navBar"></Header>
       <Switch>
@@ -21,6 +21,7 @@ function App() {
         <Route path='/Part3a' component={Part3a} />
         <Route path='/Part3b' component={Part3b} />
       </Switch>
+      {/* <Background></Background> */}
     </Router>
   );
 }

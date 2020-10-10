@@ -1,0 +1,22 @@
+.protect_img {
+	width: 50%;
+	align: center;
+	padding-left: 25%
+}
+
+.symptoms_img {
+	width: 70%;
+	align: center;
+	padding-left: 15%;
+	
+}
+.intro-content{
+	text-align: center;
+}
+.container-home{
+	background: rgb(221, 231, 233);
+}
+.protect-overselves{
+	text-align: center;
+	padding-right: 70px;
+}

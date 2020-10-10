@@ -47,13 +47,13 @@ componentDidMount(){
                         <br></br>
                         Tollfree no. : 1075
                         <br></br> 
-                        email: {items2.email}
+                        Email: {items2.email}
                         <br></br>
-                        twitter: {items2.twitter}
+                        Twitter: {items2.twitter}
                         <br></br>
-                        facebook: {items2.facebook}
+                        Facebook: {items2.facebook}
                         <br></br>
-                        media: {items2.media}
+                        Media: {items2.media}
                     </p>
 
                     </div>
@@ -64,7 +64,7 @@ componentDidMount(){
                             <thead>
                                 <tr>
                                     <th className='part1-th'>State</th>
-                                    <th className='part1-th'>contact info</th>
+                                    <th className='part1-th'>Contact Info</th>
                                 </tr>
                             </thead>
                             <tbody>

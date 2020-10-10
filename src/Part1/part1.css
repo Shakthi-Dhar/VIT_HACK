@@ -1,8 +1,23 @@
 .container{
     padding-left: 30%;
     width:75%;
+    background:#202020;
+    color: white;
 }
+/* h3{
+    background-color:rgb(53,201, 238) ;
+} */
 .part1-table,.part1-td,.part1-th{
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding:10px;
   }
+tr:nth-child(even){
+      background-color:#000000 ;
+  }
+.part1-th{
+    background-color: #000000;
+}
