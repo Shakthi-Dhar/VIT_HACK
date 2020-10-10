@@ -3,6 +3,7 @@ import './home.css';
 import Abcd from '../assets/protect.jpg'
 import Pqrs from '../assets/symptoms.jpg'
 
+
 function Home() {
   return (
   <div className = "container-home">
