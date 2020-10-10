@@ -1,0 +1,4 @@
+.part3b-table,.part3b-td,.part3b-th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
