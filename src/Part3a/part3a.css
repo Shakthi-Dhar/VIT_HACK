@@ -1,8 +1,20 @@
 .part3a-table,.part3a-td,.part3a-th{
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
+    background-color: transparent;
+    text-align: center;
   }
 .container-part3a{
-    width: 80%;
-    padding-left:15% ;
+    width: 100%;
+    padding-left:22.5% ;
+    color: white;
+    background-color: #202020;
+    
+}
+.part3a-td,.part3a-th{
+    padding: 1.5%;
+    font-size: 15px;
+}
+.part3a-th{
+    background: black;
 }

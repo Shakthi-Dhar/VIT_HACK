@@ -1,4 +1,19 @@
 .part3b-table,.part3b-td,.part3b-th{
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
   }
+  .container-part3b{
+    padding-left: 10%;
+    background:#202020;
+    color: white;
+}
+.part3b-td{
+  padding: 10px;
+}
+.part3b-th{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* h3{
+    background-color:rgb(53,201, 238) ;
+} */

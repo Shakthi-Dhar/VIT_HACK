@@ -1,5 +1,5 @@
 #body {
-    background: url("/covid-website/src/assets/WhatsApp\ Image\ 2020-10-10\ at\ 21.10.03.jpeg");
+    background-image: url('/covid-website/src/assets/covid.jpeg');
     position: fixed;
     top: 0;
     left: 0;

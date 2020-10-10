@@ -1,8 +1,24 @@
 .table-part2,.part2-td,.part2-th{
     border: 1px solid black;
     border-collapse: collapse;
-  }
+    background: transparent;
+    color: white;
+    text-align: center;
+
+}
+.part2-td{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+.part2-th{
+  background: black;
+}
 .container-part2{
-    width:80%;
-    padding-left: 5%;
+  align-items: center;
+    width:110%;
+    padding-left: 0%;
+    background: #202020;
 }

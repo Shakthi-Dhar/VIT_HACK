@@ -74,7 +74,7 @@ export class Part3b extends Component {
         }
         else{
             return(
-                <div>
+                <div className='container-part3b'>
                     <form onSubmit={this.handleSubmitState}>
                         <label>
                             <select value={this.state.items} onChange={this.handleSubmitState}>
@@ -105,11 +105,11 @@ export class Part3b extends Component {
                             <thead>
                                 <tr>
                                 <th className='part3b-th'>State</th>
-                                <th className='part3b-th'>name</th>
-                                <th className='part3b-th'>city</th>
-                                <th className='part3b-th'>ownership</th>
-                                <th className='part3b-th'>admission capacity</th>
-                                <th className='part3b-th'> hospital beds</th>
+                                <th className='part3b-th'>Name</th>
+                                <th className='part3b-th'>City</th>
+                                <th className='part3b-th'>Ownership</th>
+                                <th className='part3b-th'>Admission capacity</th>
+                                <th className='part3b-th'>Hospital beds</th>
                                 </tr>
                             </thead>
                             
