@@ -7,11 +7,13 @@ import Part2 from './Part2/Part2'
 import Part3a from './Part3a/Part3a'
 import Part3b from './Part3b/Part3b'
 import Home from './Home/Home'
+import Background from './Background/Background'
 function App() {
   return (
     <Router>
+      {/* <Background></Background> */}
       <h1>Covid++</h1>
-      <Header></Header>
+      <Header className="navBar"></Header>
       <Switch>
         <Route path="/Home" component={Home} />
         <Route path="/Part1" component={Part1} />

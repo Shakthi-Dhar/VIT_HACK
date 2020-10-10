@@ -1,0 +1,8 @@
+.part3a-table,.part3a-td,.part3a-th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.container-part3a{
+    width: 80%;
+    padding-left:15% ;
+}
