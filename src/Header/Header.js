@@ -1,20 +1,18 @@
 import React from 'react'
+import './header.css'
 
 const Header = () => {
     return (
-        <div className='container_sidebar'>
-            <div>
-            <a herf="/Part1"><p>Contact and Helpline Info</p></a>
-            </div>
-            <div>
-            <a herf="/Part2"><p>Notifications and Advisories</p></a>
-            </div>
-            <div>
-            <a herf="/Part3"><p>Hospitals and Beds</p></a>
-            </div>
-            <div>
-            <a herf="/Part4"><p>Medical and Beds</p></a>
-            </div>
+        <div className='topbar'>
+            <table>
+                <tr>
+                <td><a href="/Part1"><p>Contact and Helpline Info</p></a></td>
+                <td><a href="/Part2"><p>Notifications and Advisories</p></a></td>
+                <td><a href="/Part3a"><p>Hospitals and Beds</p></a></td>
+                <td><a href="/Part3b"><p>Medical and Beds</p></a></td>
+                <td><a href="/Home"><p>Home</p></a></td>
+                </tr>
+            </table>
         </div>
         
     )
