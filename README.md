@@ -5,6 +5,8 @@
 2. <b>Do not reload</b>. The webpage will become unavailable.
 3. To access the homepage, click on the <b>home icon</b> in the navigation bar.
 
+## DESCRIPTION
+
 <b>A website that provides important information about the state of COVID-19 pandemic in India.
 From the homepage of the website, icons on the navigation bar lead to webpages that provide this information.</b>
 
