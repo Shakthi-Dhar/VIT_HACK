@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       
-      <h1>Covid++</h1>
+      <h1>Covid Web</h1>
       <Header className="navBar"></Header>
       <Switch>
-        <Route path="/Home" component={Home} />
+        <Route path="/" component={Home} exact />
         <Route path="/Part1" component={Part1} />
         <Route path="/Part2" component={Part2} />
         <Route path='/Part3a' component={Part3a} />

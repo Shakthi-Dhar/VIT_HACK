@@ -8,7 +8,7 @@ export class Part3b extends Component {
             items:[],
             stateSelected:'0',
             stateLoaded:'false',
-            typeSelected:'0',
+            typeSelected:'rst',
             typeLoaded:'false'
         }
         this.handleSubmitState=this.handleSubmitState.bind(this)
@@ -78,6 +78,7 @@ export class Part3b extends Component {
                     <form onSubmit={this.handleSubmitState}>
                         <label>
                             <select value={this.state.items} onChange={this.handleSubmitState}>
+                                <option>select</option>
                                 {uniqueState.map(item=>(
                                     <option key={item.state} value={item.state} >
                                         {item.state}
@@ -90,11 +91,13 @@ export class Part3b extends Component {
                         <form onSubmit={this.handleSubmitType}>
                         <label>
                             <select value={this.state.items} onChange={this.handleSubmitType}>
+                                <option>select</option>
                                 {uniqueType.map(item=>(
                                     <option key={item.ownership} value={item.ownership} >
                                         {item.ownership}
                                     </option>
                                 ))}
+                                <option>rst</option>
                             </select>
                         </label>
                         {/* <input type='submit' value='Submit' /> */}
@@ -114,7 +117,7 @@ export class Part3b extends Component {
                             </thead>
                             
                                 {this.state.items.map(item=>{
-                                    if((item.state.indexOf(this.state.stateSelected)>=0)&&(!this.state.typeSelected)){
+                                    if((item.state===this.state.stateSelected)&&(this.state.typeSelected==='rst')){
                                         return(
                                             <tbody>
                                                 <tr>
@@ -128,7 +131,7 @@ export class Part3b extends Component {
                                             </tbody>
                                         )
                                     }
-                                    else if((item.state.indexOf(this.state.stateSelected)>=0)&&(item.ownership.indexOf(this.state.typeSelected))){
+                                    else if((item.state===this.state.stateSelected)&&(item.ownership===this.state.typeSelected)){
                                         return(
                                             <tbody>
                                                 <tr>
@@ -146,6 +149,7 @@ export class Part3b extends Component {
                                 })}
                             
                         </table>
+                        <div className='paded'></div>
 
                         
         

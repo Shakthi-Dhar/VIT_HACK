@@ -1,8 +1,53 @@
 img{
     padding-left: 25px
 }
+
 .topbar{
     width: 30%;
-    padding-left: 75%;
+    padding-left: 70%;
     background-color:rgb(53,201, 238);
+}
+.call{
+    background-image: url('../assets/phone-receiver.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-right: 15px;
+}
+.call-text{
+    font-size: 15px;
+    color:black;
+    padding-top: 20px;
+}
+.Notifications{
+    background-image: url('../assets/alert.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+
+}
+.Hospital-beds{
+    background-image: url('../assets/hospital-bed.png') ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-right: 15px;
+}
+.state-beds{
+    background-image: url('../assets/hospital.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-right: 15px;
+
+}
+.graph{
+    background-image: url('../assets/graph-bar.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-right: 15px;
+
+}
+.home-page{
+    background-image: url('../assets/house-black-silhouette-without-door.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+
 }

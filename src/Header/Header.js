@@ -13,30 +13,36 @@ const Header = () => {
         <div className='topbar'>
             <table>
                 <tr>
-                <td><Link to="/Part1">
+                <td className='call'><Link to="/Part1">
                     {/* <p>Contact and Helpline Info</p>*/}
-                    <img src={Call} />
+                    {/* <img src={Call} /> */}
+                    <p className='call-text'>Contacts</p>
                     </Link></td> 
-                <td><Link to="/Part2">
+                <td className='Notifications'><Link to="/Part2">
                     {/* <p>Notifications and Advisories</p> */}
-                    <img src={Notifications} />
+                    {/* <img src={Notifications} /> */}
+                    <p className='call-text'>Notifications</p>
                     </Link></td>
-                <td><Link to="/Part3a">
+                <td className='Hospital-beds'><Link to="/Part3a">
                     {/* <p>Hospitals and Beds</p> */}
-                    <img src={Beds} />
+                    {/* <img src={Beds} /> */}
+                    <p className='call-text'>Beds</p>
                     </Link></td>
-                <td><Link to="/Part3b">
+                <td className='state-beds'><Link to="/Part3b">
                     {/* <p>Medical and Beds</p> */}
-                    <img src={Hospital1} />
+                    {/* <img src={Hospital1} /> */}
+                    <p className='call-text'>State info</p>
                     </Link></td>
-                <td>
+                <td className='graph'>
                     <a>
-                        <img src={Graph} />
+                        {/* <img src={Graph} /> */}
+                        <p className='call-text'>Graph Ays.</p>
                     </a>
                 </td>
-                <td><Link to="/Home" >
+                <td className='home-page'><Link to="/" >
                     {/* <p>Home</p> */}
-                    <img src={Home} />
+                    {/* <img src={Home} /> */}
+                    <p className='call-text'>Home</p>
                 </Link></td>
                 </tr>
             </table>
