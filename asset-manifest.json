@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/VIT_HACK/static/css/main.37653b51.chunk.css",
+    "main.js": "/VIT_HACK/static/js/main.b740d7f9.chunk.js",
+    "main.js.map": "/VIT_HACK/static/js/main.b740d7f9.chunk.js.map",
+    "runtime-main.js": "/VIT_HACK/static/js/runtime-main.5db877ec.js",
+    "runtime-main.js.map": "/VIT_HACK/static/js/runtime-main.5db877ec.js.map",
+    "static/js/2.938c338a.chunk.js": "/VIT_HACK/static/js/2.938c338a.chunk.js",
+    "static/js/2.938c338a.chunk.js.map": "/VIT_HACK/static/js/2.938c338a.chunk.js.map",
+    "index.html": "/VIT_HACK/index.html",
+    "precache-manifest.c54f437feeec08c1f4e28670a161c23e.js": "/VIT_HACK/precache-manifest.c54f437feeec08c1f4e28670a161c23e.js",
+    "service-worker.js": "/VIT_HACK/service-worker.js",
+    "static/css/main.37653b51.chunk.css.map": "/VIT_HACK/static/css/main.37653b51.chunk.css.map",
+    "static/js/2.938c338a.chunk.js.LICENSE.txt": "/VIT_HACK/static/js/2.938c338a.chunk.js.LICENSE.txt",
+    "static/media/protect.jpg": "/VIT_HACK/static/media/protect.c1fe2fb1.jpg",
+    "static/media/symptoms.jpg": "/VIT_HACK/static/media/symptoms.4e37e0c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5db877ec.js",
+    "static/js/2.938c338a.chunk.js",
+    "static/css/main.37653b51.chunk.css",
+    "static/js/main.b740d7f9.chunk.js"
+  ]
+}
