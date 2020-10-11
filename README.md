@@ -11,6 +11,7 @@ From the homepage of the website, icons on the navigation bar lead to webpages t
 5. <b>Graph Ays.</b>: Displays a graph for the deceased based on the following filters: state, gender, and age group. This graph can be downloaded in PNG format.
 6. <b>Home</b>: Links back to the homepage
 
-##INSTRUCTIONS
+## INSTRUCTIONS
+
 
 
